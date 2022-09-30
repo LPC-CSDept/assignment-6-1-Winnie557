@@ -13,7 +13,7 @@ int main() {
     cin >> begin >> end;
   } while (inputvalid(begin, end));
   // } while (begin >= end || begin < 2 || end < 0);
-  printPrime(begin, end);
+  printPrime(begin, end); 
 }
 
 int inputvalid(int b, int e) {
